@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@color/white"
+    tools:context=".MainActivity8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/background"
+            android:paddingLeft="30dp"
+            android:paddingTop="21dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/home_logoUsr"
+                android:layout_width="75dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ombudsman" />
+
+
+            <TextView
+                android:id="@+id/home_namaPT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="97dp"
+                android:text="Persyaratan Dokumen"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#2596be"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 1. Fotokopi identitas diri Anda (KTP/Paspor/SIM)">
+    </me.biubiubiu.justifytext.library.JustifyTextView>>
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#2596be"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 2. Uraian Kronologi peristiwa, tindakan atau keputusan\n      yang dilaporkan, meliputi:                                              ">
+    </me.biubiubiu.justifytext.library.JustifyTextView>>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="       - Rincian Kejadian/peristiwa (dimana/kapan)     "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>>
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#2596be"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       - Petugas/Pejabat penyelenggara layanan yang\n           terkait peristiwa                                                                  ">
+    </me.biubiubiu.justifytext.library.JustifyTextView>>
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#2596be"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       - Upaya apa saja yang sudah anda lakukan dalam\n           kurun waktu 2 tahun terakhir                                              ">
+    </me.biubiubiu.justifytext.library.JustifyTextView>>
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#2596be"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       - Harapan anda dengan menyampaikan laporan/ \n           pengaduan kepada Ombudsman RI                               ">
+    </me.biubiubiu.justifytext.library.JustifyTextView>>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text=" 3. Surat kuasa asli serta fotokopi identitas pemberi\n      dan penerima kuasa apabila anda bukan korban\n      langsung, seperti; kuasa hukum, kelompok masyarakat,\n       anggota keluarga, dll.                                                           "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text=" 4. Dokumen yang menunjukkan legalitas apabila anda\n     mengatasnamakan LSM, Badan Hukum, Yayasan, dan\n     lain sebagainya. Misalnya: Akta Pendirian, Surat\n       Keputusan, AD/ART, atau lainnya                                               "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text=" 5. Informasi alamat lengkap dan nomor telepon yang \n       dapat dihubungi , serta email (jika ada)                             "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text=" 6. Pernyataan permintaan kerahasiaan identitas anda\n       jika dikehendaki                                                                      "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text=" 7. Bukti bukti, dokumen atau foto terkait peristiwa \n       yang dilaporkan                                                                       "
+                android:textColor="#2596be"></me.biubiubiu.justifytext.library.JustifyTextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

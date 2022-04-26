@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2596be"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Data Pelapor"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/inisial_instansi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kosong"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/laporan_instansi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kosong"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/status_laporan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kosong"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Nama Pelapor *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/namapelapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:hint="Nama Lengkap Anda"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Email *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:hint="Email Anda"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="No Telpon/HP *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+
+            <EditText
+                android:id="@+id/no_telepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:hint="08XX-XXXX-XXXX"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Unggah Identitas *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/gambarKtp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih File"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/filename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama File"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Lampiran dalam format JPG, PNG atau PDF dengan ukuran maksimal 2MB"
+                android:textColor="#2596be"
+                android:textSize="14dp" />
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#2596be">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Data Pengaduan"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Nama Instansi Terlapor *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/nama_instansi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Kategori Pelanggaran *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <Spinner
+                android:id="@+id/kategori_pelanggaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:textColor="#2596be"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Deskripsi Laporan *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/deskripsi_laporan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@layout/rounded_border_edittext"
+                android:hint="Mohon Deskripsikan Laporan Anda"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Tanggal Lapor *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/tanggal"
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:background="@drawable/calendar"
+                    android:textColor="@color/white"
+                    app:iconTint="#0CFFFFFF" />
+
+                <TextView
+                    android:id="@+id/tanggallapor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="Tanggal"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            <CheckBox
+                android:id="@+id/rahasiadata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rahasiakan Data Pelapor *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Bukti-bukti dokumen atau foto terkait peristiwa yang dilaporkan *"
+                android:textColor="#2596be"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/gambarBukti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih File"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/filename3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama File"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Lampiran dalam format JPG, PNG atau PDF dengan ukuran maksimal 2MB"
+                android:textColor="#2596be" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/recaptcha"
+                    android:paddingLeft="10dp"></ImageView>
+
+                <CheckBox
+                    android:id="@+id/chapca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya Bukan Robot"
+                    android:textColor="#2596be"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:onClick="chapca"
+                android:text="SIMPAN"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

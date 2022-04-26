@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="pilihstatus" >
+        <item>Belum Menikah</item>
+        <item>Menikah</item>
+        <item>Janda</item>
+    </string-array>
+
+    <string-array name="pilihpekerjaan">
+        <item>PNS</item>
+        <item>SWASTA</item>
+        <item>WIRASWASTA</item>
+        <item>POLISI</item>
+        <item>TNI</item>
+        <item>TANI</item>
+        <item>MAHASISWA</item>
+        <item>PELAJAR</item>
+        <item>BURUH</item>
+        <item>Dan Lain-Lain</item>
+    </string-array>
+
+    <string-array name="pilihprovinsi">
+        <item>ACEH</item>
+        <item>SUMATERA UTARA</item>
+        <item>SUMATERA BARAT</item>
+        <item>RIAU</item>
+        <item>JAMBI</item>
+        <item>SUMATERA SELATAN</item>
+        <item>BENGKULU</item>
+        <item>LAMPUNG</item>
+        <item>KEPULAUAN BANGKA BELITUNG</item>
+        <item>KEPULAUAN RIAU</item>
+        <item>DKI JAKARTA</item>
+        <item>JAWA BARAT</item>
+        <item>JAWA TENGAH</item>
+        <item>DI YOGYAKARTA</item>
+        <item>JAWA TIMUR</item>
+        <item>BANTEN</item>
+        <item>BALI</item>
+        <item>NUSA TENGGARA TIMUR</item>
+        <item>NUSA TENGGARA BARAT</item>
+        <item>KALIMANTAN BARAT</item>
+        <item>KALIMANTAN TENGAH</item>
+        <item>KALIMANTAN SELATAN</item>
+        <item>KALIMANTAN TIMUR</item>
+        <item>KALIMANTAN UTARA</item>
+        <item>SULAWESI UTARA</item>
+        <item>SULAWESI TENGAH</item>
+        <item>SULAWESI SELATAN</item>
+        <item>SULAWESI TENGGARA</item>
+        <item>GORONTALO</item>
+        <item>SULAWESI BARAT</item>
+        <item>MALUKU</item>
+        <item>MALUKU UTARA </item>
+        <item>PAPUA BARAT</item>
+        <item>PAPUA</item>
+    </string-array>
+
+    <string-array name="pilihkategori">
+        <item>KORBAN LANGSUNG </item>
+        <item>KUASA KORBAN</item>
+        <item>BADAN HUKUM/ORGANISASI</item>
+    </string-array>
+
+    <string-array name="pilihinstansi">
+        <item>KEJAKSAAN </item>
+        <item>LEMBAGA PERADILAN</item>
+        <item>KOMISI NEGARA/LEMBAGA NEGARA NON STRUKTURAL</item>
+        <item>BUMN/BUMD</item>
+        <item>PERGURUAN TINGGI NEGRI</item>
+        <item>DEWAN PERWAKILAN RAKYAT</item>
+        <item>TENTARA NEGARA INDONESIA </item>
+        <item>PERBANKAN</item>
+        <item>LEMBAGA PEMERINTAH NON KEMENTERIAN</item>
+        <item>PERGURUAN TINGGI NEGRI</item>
+        <item>DEWAN PERWAKILAN RAKYAT</item>
+        <item>TENTARA NEGARA INDONESIA </item>
+        <item>PERBANKAN</item>
+        <item>LEMBAGA PEMERINTAH NON KEMENTRIAN</item>
+        <item>PEMERINTAH DAERAH</item>
+        <item>BADAN PERTANAHAN NASIONAL</item>
+        <item>KEPOLISIAN</item>
+        <item>INSTANSI PEMERINTAH/KEMENTERIAN</item>
+        <item>BADAN PEMERIKSA KEUANGAN</item>
+        <item>BADAN SWASTA/PERORANGAN</item>
+        <item>PERORANGAN</item>
+        <item>LEMBAGA PENDIDIKAN NEGERI</item>
+        <item>PERGURUAN TINGGI SWASTA</item>
+
+    </string-array>
+
+    <string-array name="melapor_melalui">
+        <item>Surat</item>
+        <item>Datang Langsung</item>
+        <item>Email</item>
+        <item>Telepon</item>
+
+    </string-array>
+
+    <string-array name="provinsi_terlapor">
+        <item>ACEH</item>
+        <item>SUMATERA UTARA</item>
+        <item>SUMATERA BARAT</item>
+        <item>RIAU</item>
+        <item>JAMBI</item>
+        <item>SUMATERA SELATAN</item>
+        <item>BENGKULU</item>
+        <item>LAMPUNG</item>
+        <item>KEPULAUAN BANGKA BELITUNG</item>
+        <item>KEPULAUAN RIAU</item>
+        <item>DKI JAKARTA</item>
+        <item>JAWA BARAT</item>
+        <item>JAWA TENGAH</item>
+        <item>DI YOGYAKARTA</item>
+        <item>JAWA TIMUR</item>
+        <item>BANTEN</item>
+        <item>BALI</item>
+        <item>NUSA TENGGARA TIMUR</item>
+        <item>NUSA TENGGARA BARAT</item>
+        <item>KALIMANTAN BARAT</item>
+        <item>KALIMANTAN TENGAH</item>
+        <item>KALIMANTAN SELATAN</item>
+        <item>KALIMANTAN TIMUR</item>
+        <item>KALIMANTAN UTARA</item>
+        <item>SULAWESI UTARA</item>
+        <item>SULAWESI TENGAH</item>
+        <item>SULAWESI SELATAN</item>
+        <item>SULAWESI TENGGARA</item>
+        <item>GORONTALO</item>
+        <item>SULAWESI BARAT</item>
+        <item>MALUKU</item>
+        <item>MALUKU UTARA </item>
+        <item>PAPUA BARAT</item>
+        <item>PAPUA</item>
+    </string-array>
+
+    <string-array name="apayangdapatandalaporkan">
+        <item>"Dugaan Maladministrasi pada penyelenggaraaan pelayanan publik yang diselenggarakan oleh penyelenggara negara dan Pemerinrah, baik di pusat maupun di daerah, termasuk yang diselenggarakan oleh Badan Usaha Milik Negara, Badan Usaha Milik Swasta, Badan Usaha Milik Daerah, dan Badan Hukum milik negara, serta badan swasta atau perorangan yang diberi tugas menyelenggarakan pelayanan publik tertentu</item>
+    </string-array>
+
+    <string-array name="OmbudsmanRIMenolakLaporandalamHal">
+        <item>1. Pelapor belum pernah menyampaikan keberatan tersebut baik secara lisan maupun secara tertulis pada pihal yang dilaporkan \n 2. Substansi laporan sedang dan telah menjadi objek pemeriksaan pengadilan. \n 3. Substansi yang dilaporkan ternyata bukan wewenang Ombudsman Republik Indonesia</item>
+    </string-array>
+
+    <string name="search">Search</string>
+    <string name="type_name">Type Name</string>
+
+</resources>

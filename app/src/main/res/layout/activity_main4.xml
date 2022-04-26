@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/background"
+            android:paddingLeft="30dp"
+            android:paddingTop="21dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/ombudsman"></ImageView>
+
+            <TextView
+                android:id="@+id/home_namaPT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_centerInParent="true"
+                android:text="TATA CARA PELAPORAN"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Apa yang dapat anda laporkan"
+            android:textAllCaps="false"
+            android:textColor="#2596be"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Ombudsman RI Menolak Laporan dalam Hal"
+            android:textAllCaps="false"
+            android:textColor="#2596be"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Persyaratan Laporan"
+            android:textAllCaps="false"
+            android:textColor="#2596be"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Persyaratan Dokumen"
+            android:textAllCaps="false"
+            android:textColor="#2596be"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

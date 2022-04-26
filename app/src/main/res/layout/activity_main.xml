@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/background"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/ombudsman"
+            android:gravity="center_horizontal"></ImageView>
+
+        <TextView
+            android:layout_below="@id/logo"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:gravity="center_horizontal"
+            android:text="APLIKASI PELAPORAN OMBUDSMAN RI"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/pencircle"
+        android:text="LAPOR Sekarang"
+        android:textColor="#2596be" />
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/bookcircle"
+        android:text="Tata cara Pelaporan"
+        android:textColor="#2596be" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@drawable/paper"
+            android:text="Lihat Laporan"
+            android:textColor="#2596be" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connection"/>
+
+
+</LinearLayout>
